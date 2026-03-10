@@ -3658,19 +3658,58 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\2478695\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\2478769\\.nuget\\packages\\": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\2478559\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\2478758\\.nuget\\packages\\": {}
+>>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
+>>>>>>> f62ac84da3f251e4a8d82415e56a2b3e73599ca1
+>>>>>>> 2850cd4b85c0b10d2340f4be4322197bfb1b27c5
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\2478559\\Desktop\\SkillForge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+>>>>>>> 2850cd4b85c0b10d2340f4be4322197bfb1b27c5
       "projectName": "SkillForgeLibrary",
       "projectPath": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
       "packagesPath": "C:\\Users\\2478695\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Public\\skillforge\\database_Microservice\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\2478695\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\2478559\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+>>>>>>> f62ac84da3f251e4a8d82415e56a2b3e73599ca1
+      "projectName": "SkillForgeLibrary",
+      "projectPath": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+      "packagesPath": "C:\\Users\\2478769\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\2478769\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\2478758\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
+>>>>>>> f62ac84da3f251e4a8d82415e56a2b3e73599ca1
+>>>>>>> 2850cd4b85c0b10d2340f4be4322197bfb1b27c5
       ],
       "originalTargetFrameworks": [
         "net10.0"

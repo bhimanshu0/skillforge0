@@ -18,7 +18,19 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = SkillForgeLibrary
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\SkillForgeLibrary\SkillForgeLibrary\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\2478769\project\Skillforge.Databases\SkillForgeLibrary\SkillForgeLibrary\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\2478559\Desktop\SkillForge\skillforge0\SkillForgeLibrary\SkillForgeLibrary\
+=======
+build_property.ProjectDir = C:\Users\2478758\newcharge\skillforge0\SkillForgeLibrary\SkillForgeLibrary\
+>>>>>>> af01123a94b511bcb0f844f2b2b130c222608473
+>>>>>>> f62ac84da3f251e4a8d82415e56a2b3e73599ca1
+>>>>>>> 2850cd4b85c0b10d2340f4be4322197bfb1b27c5
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
