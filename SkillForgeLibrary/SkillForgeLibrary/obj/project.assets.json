@@ -3658,19 +3658,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\2478758\\.nuget\\packages\\": {}
+    "C:\\Users\\2478769\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
       "projectName": "SkillForgeLibrary",
-      "projectPath": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
-      "packagesPath": "C:\\Users\\2478758\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2478758\\newcharge\\skillforge0\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
+      "projectPath": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\SkillForgeLibrary.csproj",
+      "packagesPath": "C:\\Users\\2478769\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2478769\\project\\Skillforge.Databases\\SkillForgeLibrary\\SkillForgeLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\2478758\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\2478769\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
