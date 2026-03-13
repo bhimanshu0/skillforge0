@@ -10,12 +10,12 @@ namespace Skillforge.Domain
         public int CompetencyID { get; set; }
         [Required]
         [Column(TypeName ="CHAR(10)")]
-        public string ?Name { get; set; }
+        public string Name { get; set; }
         [Column(TypeName ="CHAR(50)")]
-        public string ?Description { get; set; }
+        public string Description { get; set; }
         [Required]
         [Column(TypeName ="CHAR(15)")]
-        public string ?Level { get; set; }
+        public string Level { get; set; }
         public ICollection<SkillGap> ?SkillGaps { get; set; }
     }
 }
