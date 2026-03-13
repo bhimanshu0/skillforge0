@@ -15,18 +15,18 @@ public class Audit
     // Mapped as string because UserID in the User table is VARCHAR(20)
     [Required]
     [MaxLength(20)]
-    public string? HRID { get; set; }
+    public string HRID { get; set; }
 
     [MaxLength(50)]
-    public string? Scope { get; set; }
+    public string Scope { get; set; }
 
     // No max length applied to allow for detailed audit findings (similar to NVARCHAR(MAX))
-    public string? Findings { get; set; }
+    public string Findings { get; set; }
 
     public DateTime Date { get; set; }
 
     [MaxLength(20)]
-    public string? Status { get; set; }
+    public string Status { get; set; }
 
     [ForeignKey("HRID")]
     public virtual User? HRUser { get; set; }
