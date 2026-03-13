@@ -8,17 +8,17 @@ public class Module
 {
     [Key]
     [Column (TypeName ="char(5)")]
-    public string? ModuleID {get; set;}
+    public string ModuleID {get; set;}
     [Column (TypeName ="char(5)")]
     [ForeignKey("CourseIDNavigation")]
-    public string? CourseID {get; set;}
+    public string CourseID {get; set;}
     [Column (TypeName ="char(20)")]
-    public string? Title {get; set;}
+    public string Title {get; set;}
     [Column (TypeName ="char(50)")]
-    public string? ContentURI {get; set;}
+    public string ContentURI {get; set;}
     public int Duration {get; set;}
     [Column (TypeName ="char(10)")]
-    public string? Status {get; set;}
+    public string Status {get; set;}
 
     public virtual Course? CourseIDNavigation {get; set;}
 
