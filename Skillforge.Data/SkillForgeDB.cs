@@ -29,7 +29,7 @@ public class SkillForgeDB:DbContext
     public virtual DbSet<Assessment> Assessments {get;set;}
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=LTIN719061\\SQLEXPRESS; Initial Catalog=SfDb;Integrated Security=True;TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Data Source=LTIN718269\\SQLEXPRESS; Initial Catalog=SfDb;Integrated Security=True;TrustServerCertificate=True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
