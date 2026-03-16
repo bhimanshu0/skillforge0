@@ -2,31 +2,37 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Skillforge.Domain
+namespace Skillforge.Domain;
+
+public enum SkillGapLevel
 {
-    [Table("SkillGap")]
-    public class SkillGap
-    {
-        [Key]
-        public int SkillGapID { get; set; }
+    Low,
+    Medium,
+    High
+}
 
-        [Required]
-        [Column(TypeName = "CHAR(5)")]
-        public string EmployeeID { get; set; }
+[Table("SkillGap")]
+public class SkillGap
+{
+    [Key]
+    public int SkillGapID { get; set; }
 
-        [Required]
-        public int CompetencyID { get; set; }
+    [Required]
+    [Column(TypeName = "INT)")]
+    public int EmployeeID { get; set; }
+    [ForeignKey("EmployeeID")]
+    public virtual User Employee { get; set; }
 
-        [Required]
-        public int GapLevel { get; set; }
+    [Required]
+    public int CompetencyID { get; set; }
+    [ForeignKey("CompetencyID")]
+    public virtual Competency Competency { get; set; }
 
-        [Required]
-        public DateTime DateIdentified { get; set; } = DateTime.Now;
+    [Required]
+    public SkillGapLevel GapLevel { get; set; }
 
-        [ForeignKey("EmployeeID")]
-        public virtual User Employee { get; set; }
+    [Required]
+    [Column(TypeName ="DATETIME")]
+    public DateTime DateIdentified { get; set; } = DateTime.Now;
 
-        [ForeignKey("CompetencyID")]
-        public virtual Competency Competency { get; set; }
-    }
 }

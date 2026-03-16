@@ -1,21 +1,30 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace Skillforge.Domain
+
+
+namespace Skillforge.Domain;
+
+public enum CompetencyLevel
 {
-    [Table("Competency")]
-    public class Competency
-    {
-        [Key]
-        public int CompetencyID { get; set; }
-        [Required]
-        [Column(TypeName ="CHAR(10)")]
-        public string Name { get; set; }
-        [Column(TypeName ="CHAR(50)")]
-        public string Description { get; set; }
-        [Required]
-        [Column(TypeName ="CHAR(15)")]
-        public string Level { get; set; }
-        public ICollection<SkillGap> ?SkillGaps { get; set; }
-    }
+    Beginner,
+    Intermediate,
+    Advanced
 }
+
+[Table("Competency")]
+public class Competency
+{
+    [Key]
+    public int CompetencyID { get; set; }
+    [Required]
+    [Column(TypeName = "VARCHAR(10)")]
+    public string Name { get; set; }
+    [Column(TypeName = "VARCHAR(50)")]
+    public string Description { get; set; }
+    [Required]
+    [Column(TypeName = "VARCHAR(15)")]
+    public CompetencyLevel Level { get; set; }
+    public ICollection<SkillGap>? SkillGaps { get; set; }
+}
+

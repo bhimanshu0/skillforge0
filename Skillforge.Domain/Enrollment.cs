@@ -4,24 +4,22 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Skillforge.Domain;
+
 [Table("Enrollment")]
 public class Enrollment
-{  [Key]
-   [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public int EnrollmentID { get; set; }
-    [ForeignKey("CourseIdNavigation")]
-    public int CourseID { get; set; }
-    [ForeignKey("EmployeeIdNavigation")]
-    public int EmployeeID { get; set; }
-    [Required]
-    public DateTime EnrollmentDate { get; set; } = DateTime.Now;
-    [Column(TypeName = "VARCHAR(20)")]
-    public string Status { get; set; } //Enrolled,inprogress,completed,certified
-
-  //  public virtual Course CourseIdNavigation { get; set; } = null!;
-   // public virtual User EmployeeIdNavigation { get; set; } = null!;
-
-    public virtual ICollection<Attendance> Attendances { get; set; } = new List<Attendance>();
+{
+  [Key]
+  [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+  public int EnrollmentID { get; set; }
+  public int CourseID { get; set; }
+  [ForeignKey("CourseID")]
+  public virtual Course CourseIdNavigation { get; set; }
+  public int EmployeeID { get; set; }
+  [ForeignKey("EmployeeID")]
+  public virtual User EmployeeIdNavigation { get; set; }
+  public DateTime EnrollmentDate { get; set; } = DateTime.Now;
+  public bool Status { get; set; } 
+  public virtual ICollection<Attendance> Attendances { get; set; } = new List<Attendance>();
 }
 
 

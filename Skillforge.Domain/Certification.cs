@@ -11,15 +11,15 @@ public class Certification
     public int CertificationID { get; set; }
 
     [Required]
-    [Column(TypeName = "CHAR(5)")]
-    public string EmployeeID { get; set; }
+    [Column(TypeName = "INT")]
+    public int EmployeeID { get; set; }
 
     [ForeignKey("EmployeeID")]
     public virtual User UserRoleEmployee { get; set; }
 
     [Required]
-    [Column(TypeName = "CHAR(5)")]
-    public string CourseID { get; set; }
+    [Column(TypeName = "INT")]
+    public int CourseID { get; set; }
 
     [ForeignKey("CourseID")]
     public virtual Course Course { get; set; }
@@ -32,4 +32,5 @@ public class Certification
 
     [Column(TypeName = "VARCHAR(20)")]
     public string Status { get; set; }
+    
 }

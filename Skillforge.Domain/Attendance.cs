@@ -5,19 +5,21 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Skillforge.Domain;
 [Table("Attendance")]
-[PrimaryKey("AttendanceID","EnrollmentID")]//composite primary key
+//composite primary key
 
 public class Attendance
-{    public int AttendanceID { get; set; }
+{    
+    [Key]
+    public int AttendanceID { get; set; }
 
     [ForeignKey("EnrollmentIdNavigation")]
     public int EnrollmentID { get; set; }
     [Required]
-    [Column(TypeName = "DATE")]
+    [Column(TypeName = "DATETIME")]
     public DateTime AttendanceDate { get; set; }
+
     [Required]
-    [Column(TypeName ="VARCHAR(20)")]
-    public string Status { get; set; } 
+    public bool Status { get; set; } 
     public virtual Enrollment EnrollmentIdNavigation { get; set; }
     }
 
