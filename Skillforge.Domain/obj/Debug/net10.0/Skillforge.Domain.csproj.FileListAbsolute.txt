@@ -1,0 +1,13 @@
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\bin\Debug\net10.0\Skillforge.Domain.deps.json
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\bin\Debug\net10.0\Skillforge.Domain.dll
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\bin\Debug\net10.0\Skillforge.Domain.pdb
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.csproj.AssemblyReference.cache
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.AssemblyInfoInputs.cache
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.AssemblyInfo.cs
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.sourcelink.json
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.dll
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\refint\Skillforge.Domain.dll
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\Skillforge.Domain.pdb
+C:\Users\Public\skillforge\database_Microservice\Skillforge.Databases\Skillforge.Domain\obj\Debug\net10.0\ref\Skillforge.Domain.dll
