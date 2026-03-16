@@ -11,19 +11,21 @@ public class ComplianceRecord
     public int ComplianceID { get; set; }
 
     [Required]
-    public string? EmployeeID { get; set; }
+    public int EmployeeID { get; set; }
+    [ForeignKey("EmployeeID")]
+    public virtual User Employee { get; set; }
 
     [Required]
     public int CertificationID { get; set; }
+    [ForeignKey("CertificationID")]
+    public virtual Certification Certification { get; set; }
 
-    [MaxLength(20)]
-    public string? Status { get; set; }
+    public bool Status { get; set; }
 
+    [Column(TypeName ="DATETIME")]
     public DateTime Date { get; set; }
 
-    [ForeignKey("EmployeeID")]
-    public virtual User? Employee { get; set; }
-
-    [ForeignKey("CertificationID")]
-    public virtual Certification? Certification { get; set; }
+    
+    public ICollection<Certification> Certifications {get;set;} = new List<Certification>();
+    
 }

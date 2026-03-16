@@ -4,6 +4,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Skillforge.Domain;
 
+public enum ReportScope
+{
+    Course,
+    Employee,
+    Department
+}
 
 [Table("Report")]
 public class Report
@@ -14,24 +20,8 @@ public class Report
     [Required]
     public ReportScope Scope { get; set; }
 
-    [ForeignKey("CourseIDNavigation")]
-    public string CourseID { get; set; }
-
-    [ForeignKey("EmployeeIDNavigation")]
-    public string EmployeeID { get; set; }
-
     [Required]
     public string Metrics { get; set; }
     [Required]
     public DateTime GeneratedDate { get; set; } = DateTime.Now;
-
-    
-        
-    
-    public virtual Course? CourseIDNavigation { get; set; }
-
-    
-    public virtual User? EmployeeIDNavigation { get; set; }
-
-
 }

@@ -8,21 +8,21 @@ namespace Skillforge.Domain;
 public class AuditLog
 {
     [Key]
-    public string AuditID{get; set;}
+    public int AuditID{get; set;}
 
-    [Column(TypeName ="CHAR(5)")]
-    public string UserID { get; set; }
+    [Column(TypeName ="INT")]
+    public int UserID { get; set; }
 
     [ForeignKey("UserID")] 
     public virtual User UserIdNavigation { get; set; }
 
-    [Column(TypeName ="VARCHAR(20)")]
+    [Column(TypeName ="VARCHAR(50)")]
     public string Action{get; set;}
 
     [Column(TypeName ="VARCHAR(255)")]
     public string Resource{get; set;}
 
-    [Column(TypeName ="datetime2")]
+    [Column(TypeName ="DATETIME")]
     public DateTime Timestamp{get; set;}
 
 }
